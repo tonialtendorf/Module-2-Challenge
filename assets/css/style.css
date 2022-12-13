@@ -5,46 +5,74 @@
   box-sizing: border-box;
   
 }
-
-header h1 {
-  padding: 27px;
-  margin: auto;
-  text-align: left;
+body {
+  background-color: rgb(242, 242, 242);
+}
+header {
+  padding: 1px 1px 1px 1px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
   background-color: rgba(31, 78, 121);
-  font-family: "Helvetica";
+  font-family: "Calibri", 'Helvetica';
   color: white;
-  font-size: 40px;
+  font-size: 20px;
+ 
+}
+header h1 {
+  background-color: rgb(91, 155, 213);
+  padding: 10px 50px 10px 30px
+}
+/*top navigation*/
+nav a {
+  background-color: rgb(91, 155, 213);
+  padding: 8px 30px 10px;
+  float: right;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Calibri";
 }
 
+nav a:hover {
+  background-color: rgba(240, 248, 255, 0.438);
+  color: white;
+  
+}
+
+/*headshot image*/
 header img {
   float: left;
   width: 100px;
   height: 100px;
   background: #555;
 }
-/*background color for nav*/
-nav {
-  background-color: rgb(91, 155, 213);
-  overflow: hidden;
-}
 
-nav a {
-  float: right;
-  color: black;
-  text-align: center;
-  padding: 1px 30px 20px;
-  text-decoration-line:underline;
-  font-size: 25px;
-  font-weight: 800;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-nav a:hover {
-  background-color: rgba(240, 248, 255, 0.438);
-  color: white;
-}
-
+/*adjusting image to circle/positioning*/
 img {
   border-radius: 50%;
   height:300px;
+  position: fixed;
+  top: 60px;
+  left: 550px;
+}
+
+section {
+  
+}
+
+/*Contact me links */
+
+ul a {
+  padding: 8px 30px 10px;
+  margin: center;
+  float: right;
+  background-color:rgb(91, 155, 213);;
+  color: white;
+  text-decoration-line: underline;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Calibri"
+  
 }
