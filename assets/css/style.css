@@ -9,7 +9,6 @@ body {
   background-color: rgb(242, 242, 242);
 }
 header {
-  padding: 1px 1px 1px 1px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -33,6 +32,7 @@ nav a {
   font-size: 25px;
   font-weight: 700;
   font-family: "Calibri";
+  
 }
 
 nav a:hover {
@@ -45,32 +45,58 @@ nav a:hover {
 .header_image img {
   display: flex;
   border-radius: 50%;
-  height:300px;
+  height:350px;
   position: relative;
-  top: -75px;
-  left: 450px;
+  top: -100px;
+  left: 550px;
 }
 
-/*segment sections*/
+/*about me section*/
 #aboutme {
   display: flex;
-  margin-top: -275px;
+  margin-top: -325px;
   flex-wrap: wrap;
   background-color: rgba(31, 78, 121);
   font-family: "Calibri", 'Helvetica';
-  color: white;
   font-size: 20px;
 }
 
 #aboutme h2 {
   margin: 100px 100px 100px 100px; 
   font-size: 50px;
+  color: white;
 }
 
-segments p {
-  margin: right;
-  font-size: 20px;
+#aboutme p {
+  text-align: center;
+  position: absolute;
+  top: 150px;
+  left: 1000px;
+  right: 150px;
+  font-size: 30px;
+  color: white;
 }
+
+#work {
+  font-family: "Calibri", 'Helvetica';
+  color: white;
+  background-color: rgb(91, 155, 213);
+}
+
+#work h2 {
+  margin: 0px 100px 100px 100px; 
+  font-size: 50px;
+}
+
+.project img {
+  border-radius: 0;
+  display: flex;
+}
+
+
+
+
+
 
 /*Contact me links */
 #contactme{
@@ -82,19 +108,23 @@ segments p {
   font-family: "Calibri";
 }
 
-#contactme h1{
-  padding 20px 50px;
+#contactme h2{
+  font-family: "Calibri", 'Helvetica';
+  color: white;
+  font-size: 50px;
+  padding-left: 100px;
 }
+
 
 ul a {
   padding: 8px 30px 10px;
-  margin: center;
-  float: right;
+  float: center;
   background-color:rgb(91, 155, 213);;
   color: white;
   text-decoration-line: underline;
   font-size: 25px;
   font-weight: 700;
+ 
 }
 
 ul a:hover {
