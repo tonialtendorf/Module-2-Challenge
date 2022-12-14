@@ -3,8 +3,8 @@
 
 *{
   box-sizing: border-box;
-  
 }
+
 body {
   background-color: rgb(242, 242, 242);
 }
@@ -42,27 +42,49 @@ nav a:hover {
 }
 
 /*headshot image*/
-header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-  background: #555;
-}
-
-/*adjusting image to circle/positioning*/
-img {
+.header_image img {
+  display: flex;
   border-radius: 50%;
   height:300px;
-  position: fixed;
-  top: 60px;
-  left: 550px;
+  position: relative;
+  top: -75px;
+  left: 450px;
 }
 
-section {
-  
+/*segment sections*/
+#aboutme {
+  display: flex;
+  margin-top: -275px;
+  flex-wrap: wrap;
+  background-color: rgba(31, 78, 121);
+  font-family: "Calibri", 'Helvetica';
+  color: white;
+  font-size: 20px;
+}
+
+#aboutme h2 {
+  margin: 100px 100px 100px 100px; 
+  font-size: 50px;
+}
+
+segments p {
+  margin: right;
+  font-size: 20px;
 }
 
 /*Contact me links */
+#contactme{
+  background-color: rgba(31, 78, 121);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Calibri";
+}
+
+#contactme h1{
+  padding 20px 50px;
+}
 
 ul a {
   padding: 8px 30px 10px;
@@ -73,6 +95,9 @@ ul a {
   text-decoration-line: underline;
   font-size: 25px;
   font-weight: 700;
-  font-family: "Calibri"
-  
+}
+
+ul a:hover {
+  background-color: rgba(240, 248, 255, 0.438);
+  color: white;  
 }
