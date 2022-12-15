@@ -3,39 +3,42 @@
 
 *{
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   background-color: rgb(242, 242, 242);
   font-family: "Calibri", 'Helvetica';
+  color: white;
 
 }
 header {
+  height: 150px;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   align-items: center;
   background-color: rgba(31, 78, 121);
-  color: white;
-  font-size: 20px;
+  justify-content: space-between;
+  
 }
 
 header h1 {
   background-color: rgb(91, 155, 213);
   padding: 10px 50px 10px 30px;
+  font-size: 50px;
+  justify-content: left;
 }
 
 /*top navigation*/
+
 nav a {
   background-color: rgb(91, 155, 213);
-  padding: 8px 30px 10px;
-  float: right;
+  padding: 10px 20px;
   color: white;
   font-size: 25px;
   font-weight: 700;
   font-family: "Calibri";
-  margin-right: 5px;
-  margin-top: 75px; 
+  margin: 20px;
+  
 }
 
 nav a:hover {
@@ -44,109 +47,134 @@ nav a:hover {
 }
 
 /*headshot image*/
-.header_image img {
+.headshot img {
   display: flex;
   border-radius: 50%;
-  height:350px;
+  height:300px;
   position: relative;
-  top: -50px;
-  left: 550px;
+  top: 100px;
+  left: -100px;
+  
 }
 
 /*about me section*/
-#aboutme {
-  display: flex;
-  margin-top: -350px;
+.about {
+  height: 300px;
+  display:flex;
   flex-wrap: wrap;
-  background-color: rgba(31, 78, 121);
+  background-color: rgba(91, 155, 213);
   font-family: "Calibri", 'Helvetica';
-  font-size: 20px;
+  
+  
 }
-
-#aboutme h2 {
-  margin: 35px 100px 100px 125px; 
+.aboutme-left h2{
   font-size: 50px;
-  color: white;
+  margin: 100px 0px 0px 100px; 
+  position:relative;
 }
 
-#aboutme p {
-  text-align: center;
-  position: absolute;
-  top: 150px;
-  left: 1000px;
-  right: 150px;
+.aboutme-right {
   font-size: 30px;
-  color: white;
-  display: flex;
+  text-align: center;
+  margin: -150px 100px 0px 1000px;
+  font-size: 30px;
 }
 
 /*work section*/
-.segments {
+.work {
   flex-wrap: wrap;
-  font-family: "Calibri", 'Helvetica';
-  color: white;
   background-color: rgb(91, 155, 213);
   display: flex;
-  padding-top: 50px;
+  justify-content: center;
 }
 
-.segments h2 {
-  margin: 35px 100px 100px 125px; 
+/*work large image*/
+.work h2 {
+  margin: 75px;
   font-size: 50px;
-}
+ }
 
-#studyguide img {
-  height: 500px;
-  width: 700px;
-  margin: -70px 800px 0px 600px;
-}
-
-#modules img {
-  float: left;
-  height: 250px;
-  width: 250px;
-  margin: 20px 400px 20px 50px;
-}
-
-span {
-  display:block;
+ .work h3 {
+  font-size: 30px;
   text-align: center;
-  font-size: 40px;
-  margin: -50px 0 0 150px;
-  color: black;
 }
+.work-main img {
+  min-height: 800px;
+  max-height: 900px;
+  padding: 150px 50px 50px 0px;
+  
+  }
+
+
+  /*work small section*/
+.work-firstrow img {
+  min-height: 350px;
+  max-height: 400px;
+  min-width: 350px;
+  max-width: 400px;
+  padding: 5px;
+  justify-content: space-evenly;  
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
 
 /*Contact me links */
-#contactme {
+.contact {
   background-color: rgba(31, 78, 121);
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Calibri";
+  height: 150px;
 }
 
-#contactme h2{
+.contact h2{
   font-family: "Calibri", 'Helvetica';
-  color: white;
   font-size: 50px;
   padding-left: 100px;
 }
-
 
 ul a {
   padding: 8px 30px 10px;
   float: center;
   background-color:rgb(91, 155, 213);;
-  color: white;
   text-decoration-line: underline;
   font-size: 25px;
+  color: white;
   font-weight: 700;
   margin:90px;
- 
 }
 
 ul a:hover {
   background-color: rgba(240, 248, 255, 0.438);
   color: white;  
+}
+
+/*responsive layout*/
+@media screen and (max-width: 992px) {
+  .img {
+    width: 50%;
+  }
+  /* Change the header color */
+  header {
+    background: #635b5a;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    width: 50%;
+  }
+  /* Change the header color */
+  header {
+    background: #0f0f0f;
+  }
 }

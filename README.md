@@ -1,41 +1,35 @@
 # Module-2-Challenge
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+## Description
 
-Acceptance Criteria
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager's needs:
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+- The challenge was to create a portfolio from scratch with no starter code. This project was built to start as my working portfolio in class and to share out post completing the bootcamp.
+- I learned how to use everything that I have learned and my resources in class to make this portfolio come to life.
 
-Technical Acceptance Criteria: 40%
-• Satisfies all of the preceding acceptance criteria.
-Deployment: 32%
-• Application deployed at live URL.
-• Application loads with no errors.
-• Application GitHub URL submitted.
-• GitHub repository contains application code.
-Application Quality: 15%
-• Application resembles the mock-up functionality provided in the Challenge instructions.
-Repository Quality: 13%
-• Repository has a unique name.
-• Repository follows best practices for file structure and naming conventions.
-• Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-• Repository contains multiple descriptive commit messages.
-• Repository contains a quality readme with description, screenshot, link to deployed application.
-How to Submit the Challenge
-You are required to submit BOTH of the following for review:
-• The URL of the deployed application.
-• The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+## Installation
+
+1. I first started with powerpoint to draw out how I wanted my portfolio to look.
+2. I then created a repo and an HTML/CSS file.
+3. Once my HTML outline was complete I worked in CSS to design my portfolio.
+4. I then created my READ.ME file and deployed my work using github pages.
+
+Powerpoint screenshot included:
+
+
+## Usage
+
+This portfolio can be used to review all my top accomplishments throughout the bootcamp such as my modules, challenges, and prework study guide. This portfolio can also be provided to future employers to review my work and for further connections.
+
+![Portfolio Outline]![image](https://user-images.githubusercontent.com/117392154/207958426-f9803056-d2d3-4699-9760-03ad915f8acf.png))
+
+## Credits
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/ 
+https://coding-boot-camp.github.io/full-stack/html/html-cheatsheet
+https://websitesetup.org/wp-content/uploads/2016/10/wsu-css-cheat-sheet.pdf
+https://www.youtube.com/watch?v=SP1QMG6WPNk&t=177s
+
+
+## License
+
+Please refer to the LICENSE in the repo.

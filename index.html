@@ -14,47 +14,54 @@
   <!--top section/navigation-->
 <header>
   <h1>Toni Altendorf</h1> 
+
+  <!--Headshot Image-->
+  <div class="headshot">
+    <img src="./assets/images/HeadshotLinkedIn.jpg" alt="Toni Altendorf headshot" width: 150px>
+  </div>
+
   <nav>
-    <a href="#resume">Resume</a>
-    <a href="#contactme">Contact Me</a>
-    <a href="#projects">Work</a>
     <a href="#aboutme">About Me</a>
+    <a href="#projects">Work</a>
+    <a href="#contactme">Contact Me</a>
+    <a href="#resume">Resume</a>
   </nav>
 </header>
 <br>
-<!--Headshot Image-->
-<section class="header_image">
-  <img src="./assets/images/HeadshotLinkedIn.jpg" alt="Toni Altendorf headshot"/>
-</section>
-
 <!--About me section-->
-<main class="about-me">
-  <section class="segments" id="aboutme">
+
+<section class="about" id="aboutme"> 
+  <div class="aboutme-left">
     <h2>| About Me |</h2>
-    <div>
-      <p>
-        Hi! I'm Toni, welcome to my portfolio! I reside in Savage, MN where I currently work for Target in recruiting and events. I am also in the process
-        of receiving my certificate in coding from the University of Minnesota. I am looking forward to connecting with you!
-      </p>
-    </div>
-  </section>
+  </div>
+  <div class="aboutme-right">
+    <p>
+      Hi! I'm Toni, welcome to my portfolio! I reside in Savage, MN where I currently work for Target in recruiting and events. I am also in the process 
+      of receiving my certificate in coding from the University of Minnesota. I am looking forward to connecting with you!
+    </p>
+  </div>
+</section>
   <br>
 
 <!--My work section-->
-<section class="segments" id="projects">
-  <h2>| Work |</h2>  
-  <div class="project">
-    <div class="project" id="studyguide">
-      <a target="_blank" href="https://tonialtendorf.github.io/prework-study-guide"><img src="./assets/images/StudyGuideStockIMage.JPG" alt="Blue study guide cover." /></a>
-      <span>Prework Study Guide</span>
-      <div class="project" id="modules"> 
-      <a target="_blank" href="https://github.com/tonialtendorf/Module1Challenge"><img src="./assets/images/VSCodeIcon.png" alt="VS code icon" /></a>      
-      <a target="_blank" href="https://github.com/tonialtendorf/Module-2-Challenge"><img src="./assets/images/codingstock image.jpg" alt="Coding stock image example" /></a>
-      <a target="_blank" href="#"><img src="./assets/images/htmlcss.jpg" alt="html icon next to CSS icon" /></a>
-     
+<main class="work" id="projects">
+<h2>| Work |</h2>
+  <div class="work-main">
+    <a target="_blank" href="https://tonialtendorf.github.io/prework-study-guide"><img src="./assets/images/StudyGuideStockIMage.JPG" alt="Blue study guide cover." /></a>
+    <h3>Prework Study Guide</h3>  
   </div>
-</section>
+  <div class="work-firstrow">
+    <a target="_blank" href="https://github.com/tonialtendorf/Module1Challenge"><img src="./assets/images/VSCodeIcon.png" alt="VS code icon" /></a>      
+    <h3>Module 1 Challenge</h3>
+    <a target="_blank" href="https://github.com/tonialtendorf/Module-2-Challenge"><img src="./assets/images/codingstock image.jpg" alt="Coding stock image example" /></a>
+    <h3>Module 2 Challenge</h3>
+    <a target="_blank" href="#"><img src="./assets/images/htmlcss.jpg" alt="html icon next to CSS icon" /></a>     
+    <h3>Project Placeholder</h3>
+  </div>
+</main>
+<br>
 
+<!--contact me section-->
 <section class="contact" id="contactme">
   <h2>| Contact Me |</h2>
     <ul>
@@ -64,7 +71,5 @@
       <a target="_blank" href="https://www.linkedin.com/in/tonivohnoutka/">LinkedIn</a>
     </ul>
 </section>
-</main>
 </body>
-
 </html>
