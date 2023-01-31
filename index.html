@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toni Altendorf Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
  
@@ -22,12 +23,12 @@
 
   <nav>
     <a href="#aboutme">About Me</a>
-    <a href="#projects">Work</a>
+    <a href="#work">Work</a>
     <a href="#contactme">Contact Me</a>
     <a href="#resume">Resume</a>
   </nav>
 </header>
-<br>
+
 <!--About me section-->
 
 <section class="about" id="aboutme"> 
@@ -41,25 +42,47 @@
     </p>
   </div>
 </section>
-  <br>
+  
 
 <!--My work section-->
-<main class="work" id="projects">
-<h2>| Work |</h2>
-  <div class="work-main">
-    <a target="_blank" href="https://tonialtendorf.github.io/prework-study-guide"><img src="./assets/images/StudyGuideStockIMage.JPG" alt="Blue study guide cover." /></a>
-    <h3>Prework Study Guide</h3>  
+
+ <section class="work-section" id="work">
+  <h2>| Work |</h2>
+  
+  <div class="flex-container">
+    
+    <a target="_blank" href="https://tonialtendorf.github.io/Thrifty-Travel/" class="flex-item py-3 thrifty" style="background-image: url('./assets/images/thriftytravel1.JPG')">
+      <div>
+      
+        <h3>Thrifty Travel</h3>
+        <span>Project 1</span>
+      </div>
+    </a>   
+    <a target="_blank" href="https://tonialtendorf.github.io/prework-study-guide" class="flex-item col-6 col-md-4">
+      <div>
+        <h3>Bootcamp Study Guide</h3>
+        <span>PreWork</span>
+      </div>
+    </a>
+    <a target="_blank" href="https://tonialtendorf.github.io/Module-3-Password-Generator/" alt="" class="flex-item col-6 col-md-4" >
+      <div>
+        <h3>Password Generator</h3>
+        <span>Module 3 Challenge</span>
+      </div>
+    </a>
+    <a target="_blank" href="https://github.com/tonialtendorf/Module1Challenge" alt="" class="flex-item col-6 col-md-4" >
+      <div>
+        <h3>HTML Application</h3>
+        <span>Module 1 Challenge</span>
+      </div>
+    </a>
   </div>
-  <div class="work-firstrow">
-    <a target="_blank" href="https://github.com/tonialtendorf/Module1Challenge"><img src="./assets/images/VSCodeIcon.png" alt="VS code icon" /></a>      
-    <h3>Module 1 Challenge</h3>
-    <a target="_blank" href="https://github.com/tonialtendorf/Module-2-Challenge"><img src="./assets/images/codingstock image.jpg" alt="Coding stock image example" /></a>
-    <h3>Module 2 Challenge</h3>
-    <a target="_blank" href="#"><img src="./assets/images/htmlcss.jpg" alt="html icon next to CSS icon" /></a>     
-    <h3>Project Placeholder</h3>
-  </div>
+</section>
+
+
+
 </main>
-<br>
+
 
 <!--contact me section-->
 <section class="contact" id="contactme">

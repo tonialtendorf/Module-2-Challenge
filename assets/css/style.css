@@ -1,12 +1,13 @@
 /*header*/
 *{
     box-sizing: border-box;
-    margin: 0;
+    
   }
   body {
     background-color: rgb(242, 242, 242);
     font-family: "Calibri", 'Helvetica';
     color: white;
+    margin: 4px;
   }
   header {
     height: 150px;
@@ -44,7 +45,7 @@
     height:300px;
     position: relative;
     top: 100px;
-    left: -100px;
+    left: -75px;
     
   }
   /*about me section*/
@@ -68,39 +69,80 @@
     margin: -150px 100px 0px 1000px;
     font-size: 30px;
   }
-  /*work section*/
-  .work {
-    flex-wrap: wrap;
-    background-color: rgb(91, 155, 213);
-    display: flex;
-    justify-content: center;
-  }
-  /*work large image*/
-  .work h2 {
-    margin: 75px;
-    font-size: 50px;
-   }
-   .work h3 {
-    font-size: 30px;
-    text-align: center;
-  }
-  .work-main img {
-    min-height: 800px;
-    max-height: 900px;
-    padding: 150px 50px 50px 0px;
-    
-    }
   
-    /*work small section*/
-  .work-firstrow img {
-    min-height: 350px;
-    max-height: 400px;
-    min-width: 350px;
-    max-width: 400px;
-    padding: 5px;
-    justify-content: space-evenly;  
+
+  /*work section*/
+  
+  .work-section {
+    background-color:rgb(91, 155, 213);
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
+  
+  .work-section h2 {
+    padding-left: 100px;
+    padding-right: 50px;
+    font-size: 50px;
+  }
+  
+  .work-section div {
+    flex: 0 80%;
+  
+  }
+
+  .flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+  
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  
+  .flex-item {
+    border: 3.5px solid white;
+    background-color: rgba(31, 78, 121);
+    color: white;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    
+  }
+
+  .flex-item:hover {
+    background-color: rgba(240, 248, 255, 0.438);
+    text-decoration: none;
+ }
+  
+
+  .flex-item div {
+    background-color: rgba(240, 248, 255, 0.438);
+    color: black;
+    padding: 15px;
+    
+  }
+   
+  .flex-item div h3{
+    font-size: 30px;
+    
+  }
+
+ 
+  .flex-item div span {
+    font-size: 20px;
+  }
+   
+
+
+/*image links*/
+
+
   /*Contact me links */
   .contact {
     background-color: rgba(31, 78, 121);
@@ -130,12 +172,15 @@
     background-color: rgba(240, 248, 255, 0.438);
     color: white;  
   }
+ 
+  
   /*responsive layout*/
+  
   @media screen and (max-width: 992px) {
     .img {
       width: 50%;
     }
-    /* Change the header color */
+    /* Change the header color*/
     header {
       background: #635b5a;
     }
@@ -143,7 +188,7 @@
   @media screen and (max-width: 768px) {
     .img {
       width: 50%;
-    }
+    } 
     /* Change the header color */
     header {
       background: #0f0f0f;
